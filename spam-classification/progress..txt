@@ -1,0 +1,37 @@
+Sigmoid 2 layer binary cross entropy 2 digit hot encoding
+16/16 [==============================] - 0s 686us/step - loss: 0.4081 - accuracy: 0.8589
+['loss', 'accuracy']
+Test result:  [0.408085435628891, 0.8588709831237793]
+
+Sigmoid 1 layer bcent vectorized 1 digit labels
+16/16 [==============================] - 0s 623us/step - loss: 0.7166 - accuracy: 0.8548
+['loss', 'accuracy']
+Test result:  [0.7165541052818298, 0.8548387289047241]
+
+
++] Accuracy: 98.91%
+[+] Precision:   100.00%
+[+] Recall:   91.13%
+
+ precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       483
+           1       0.92      1.00      0.96        66
+
+    accuracy                           0.99       549
+   macro avg       0.96      0.99      0.98       549
+weighted avg       0.99      0.99      0.99       549
+
+
+18/18 [==============================] - 0s 21ms/step - loss: 0.7113 - accuracy: 0.9180 - precision_5: 0.7872 - recall_5: 0.5139
+['loss', 'accuracy', 'precision_5', 'recall_5']
+Test result:  [0.7112970948219299, 0.9180327653884888, 0.7872340679168701, 0.5138888955116272]
+
+ precision    recall  f1-score   support
+
+           0       0.98      0.93      0.95       502
+           1       0.51      0.79      0.62        47
+
+    accuracy                           0.92       549
+   macro avg       0.75      0.86      0.79       549
+weighted avg       0.94      0.92      0.93       549
